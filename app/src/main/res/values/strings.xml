@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GitHub Perfil</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="btn_repositorios">Repositórios</string>
+
+    <string name="hint_usuario">Login do Usuário</string>
+
+    <string name="label_usuario">Nome:</string>
+    <string name="label_login">Login:</string>
+    <string name="label_followers">Followers:</string>
+    <string name="label_following">Following:</string>
+
+    <string name="label_repositorio">Repositório:</string>
+    <string name="label_descricao">Descrição:</string>
+    <string name="label_linguagem">Linguagem:</string>
+
+</resources>

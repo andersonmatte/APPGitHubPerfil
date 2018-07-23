@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".atividades.PerfilActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:src="@mipmap/github" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/nomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgUsuario"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/loginUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/nomeUsuario"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/followers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/loginUsuario"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/following"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/followers"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_buscarRepositorios"
+        style="@style/RaisedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/btn_repositorios" />
+
+</android.support.v7.widget.LinearLayoutCompat>
