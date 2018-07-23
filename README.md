@@ -1,6 +1,6 @@
 # APP GitHub Perfil
 
-![alt text](/imagens/Capa.png)
+![alt text](/imagens/CapaProjeto.png)
 
 
 Com a aplicativo de buscas de perfil do GitHub , é possível buscar informações de usuários do GitHub. Com a busca por usuário é possível ver os repositórios do usuário bem como outras informações de perfil.
